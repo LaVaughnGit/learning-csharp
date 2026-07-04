@@ -52,6 +52,11 @@ namespace HelloWorld
             double d = 9.78;
             int i = (int)d; // Changes double to int, truncating the decimal part
             Console.WriteLine($"The value of i is {i}.");
+
+            // Inputing Data
+            Console.Write("Enter a value: ");
+            string userInput = Console.ReadLine();
+            Console.WriteLine($"You entered: {userInput}");
         }
     }
 }
